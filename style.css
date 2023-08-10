@@ -20,6 +20,14 @@ h2{
     width:40%;
     margin-top: 25px;    
 }
+.body{
+    /* background-color: aqua; */
+    height: 1404px; 
+    width: 100% ;
+    box-sizing: border-box;
+    /* background-image: url(color.jpg);background-size:cover ; */
+    /* background-attachment: fixed;background-repeat: no-repeat; */  
+}
 .color{
     padding-right: 200px;
     margin-top: 40px; 
@@ -33,12 +41,6 @@ h2{
 .main{
     text-align: center;    
     /* margin-top: 300px; */
-}
-.body{
-    /* background-color: aqua; */
-    height: 640px; 
-    width: 100%; 
-    box-sizing: border-box;  
 }
 
 .button{
@@ -54,4 +56,64 @@ h2{
     background-color: #ffffff;
     color: #000000;
     transition: 1s;
+}
+
+/*@media screen and (max-width:768px){
+    h2{
+        font-size:25px ;        
+        width:30%;
+        margin-top: 35px;    
+    }
+    .color{
+        padding-right: 400px;
+        margin-top: 40px; 
+        font-size: 20px; 
+        color:#ffffff; 
+    }
+
+    .button{
+        margin-top: 140px; 
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;  
+        background-color: #000000; 
+        color:#ffffff;
+        width:150px; 
+        margin-right: 350px;       
+    }
+    body{
+        width:100%;
+    }
+} */
+
+@media screen and (max-width:1000px){
+    h2{
+        font-size:25px ;        
+        width:30%;
+        margin-top: 22px;    
+    }
+    .color{
+        padding-left: 200px;
+        margin-top: 40px; 
+        font-size: 20px; 
+        color:#ffffff; 
+    }
+    #heading{
+        margin-left: 60px;
+    }
+    .button{
+        margin-top: 240px; 
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 10px;
+        cursor: pointer;  
+        background-color: #000000; 
+        color:#ffffff;
+        width:170px; 
+        margin-left: 10px;       
+    }
+    body{
+        width:100%;
+    }
 }
